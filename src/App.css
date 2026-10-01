@@ -45,34 +45,34 @@
 #3d72b4);
 } */
 
-.appmaincontainer{
+.appmaincontainer {
   /* background: linear-gradient(
 #242323
 ,
 #8595ab); */
-/* background: linear-gradient(
+  /* background: linear-gradient(
 #b4b0c0
 ,
 #b9b8bb); */
-/* 
+  /* 
  background: radial-gradient(
     circle at top right,
     #967683,
     #9797b1,
     #ecebeb
   ); */
-/* background: linear-gradient(
+  /* background: linear-gradient(
 #e1d3a7
 ,
 #ffffff); */
-/* background-image: url(./assests/bgimage.png); */
-/* background-image: url('./assests/image.png'); */
-/* background-image: url('./assests/openlapie.jpg'); */
-background-image: url('./assests/backgroundIamge.png');
-min-height: 100vh;
+  /* background-image: url(./assests/bgimage.png); */
+  /* background-image: url('./assests/image.png'); */
+  /* background-image: url('./assests/openlapie.jpg'); */
+  background-image: url('./assests/backgroundIamge.png');
+  min-height: 100vh;
 
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }

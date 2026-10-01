@@ -89,22 +89,22 @@ const Contact = () => {
 
                             <div className="formGroup">
                                 <label>Full Name:</label>
-                                <input type="text" />
+                                <input type="text" placeholder='Enter Your Name'/>
                             </div>
 
                             <div className="formGroup">
                                 <label>Mobile Number:</label>
-                                <input type="number" />
+                                <input type="number" placeholder='Enter Your Mobile Number'/>
                             </div>
 
                             <div className="formGroup">
                                 <label>Email:</label>
-                                <input type="email" />
+                                <input type="email" placeholder='Enter Your Mail'/>
                             </div>
 
                             <div className="formGroup">
                                 <label>Message:</label>
-                                <textarea></textarea>
+                                <textarea placeholder='message'></textarea>
                             </div>
 
                             <button type="submit">Send Message</button>

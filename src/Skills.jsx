@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <>
 
-            <div style={{ position: 'absolute', marginLeft: "200px", marginTop: "30px", }} >
+            <div style={{ position: 'absolute', marginLeft: "200px", marginTop: "0px", }} >
                 <h1 className='skills'>My Skills</h1>
 
                 <p className='techs'>Technologies & Tools Work With</p>

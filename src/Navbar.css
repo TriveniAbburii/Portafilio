@@ -54,6 +54,14 @@
 
 }
 
+.AboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 100px;
+}
+
 .content {
     /* color: #2f73c7; */
     /* color: rgb(96, 75, 215); */
@@ -204,20 +212,22 @@
 /* Contactpage css */
 
 .contactContainer {
-    background-color: #111;
+    /* background-color: #111; */
     min-height: 100vh;
-    padding: 60px 80px;
+    margin-top: 40px;
+    line-height: 0.2px;
+    /* padding: 60px 80px; */
 }
 
-.contactContainer>h1 {
-    color: white;
+.contactContainer h1 {
+    color: black;
     font-size: 50px;
     text-align: center;
 }
 
-.contactContainer>p {
-    color: white;
-    font-size: 20px;
+.contactContainer p {
+    color: black;
+    font-size: 15px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -239,9 +249,15 @@
 
 .contactCard {
     background-color: white;
-    width: 300px;
+    width: 250px;
+
     border-radius: 20px;
-    padding: 15px 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    color: #6c3bbd
 }
 
 .contactCard h2 {
@@ -256,10 +272,17 @@
 /* Right side */
 
 .contactForm {
-    background-color: white;
+    /* background-color: white; */
+    background: linear-gradient(#8e9fa6,
+            #8dadbb,
+            #98b0bb);
+             /* background: linear-gradient(#c2b7d4,
+           #bdb0d2,
+            #b6acc8); */
     width: 400px;
     padding: 30px;
     border-radius: 20px;
+    border: 0.5px solid white;
 }
 
 .formGroup {
@@ -271,6 +294,7 @@
 .formGroup label {
     margin-bottom: 8px;
     font-weight: bold;
+   color:#6c3bbd
 }
 
 .formGroup input,
@@ -325,15 +349,215 @@
 .ptag {
     color: #111;
 }
+
 /* skills page */
-.skills{
+.skills {
     color: #5b07e2;
     font-size: 50px;
     text-align: center;
 }
-.techs{
+
+.techs {
     color: rgb(74, 68, 68);
     font-size: 20px;
     text-align: center;
     margin-top: -30px;
+}
+
+.listitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px
+}
+
+
+
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .nameconatiner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titlename {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .navLinks {
+        margin-right: 0;
+        margin-top: 10px;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .linknames {
+        font-size: 15px;
+    }
+
+
+    /* Home */
+    .HomeContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .content {
+        width: 90%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .homebtns {
+        margin-right: 0;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .btn,
+    .btnconatct,
+    .btn1 {
+        width: 130px;
+    }
+
+
+    /* About */
+    .nametitle {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .roletitle {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .aboutpara {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .aboutbtns {
+        width: 120px;
+        padding: 25px;
+    }
+
+
+    /* Skills */
+    .skills {
+        font-size: 38px;
+    }
+
+    .techs {
+        font-size: 17px;
+        margin-top: -15px;
+    }
+
+    .skillsbtn {
+        width: 170px;
+        height: auto;
+        min-height: 90px;
+    }
+
+
+    /* Contact */
+    .contactContainer {
+        padding: 40px 20px;
+    }
+
+    .contactContainer>h1 {
+        font-size: 38px;
+    }
+
+    .contactContainer>p {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+
+    .contactContent {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contactCard {
+        width: 100%;
+        max-width: 300px;
+        box-sizing: border-box;
+    }
+
+    .contactForm {
+        width: 100%;
+        max-width: 400px;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .formGroup input,
+    .formGroup textarea {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+}
+
+
+/* Small mobile phones */
+@media (max-width: 480px) {
+
+    .titlename {
+        font-size: 22px;
+    }
+
+    .navLinks {
+        gap: 10px;
+    }
+
+    .linknames {
+        font-size: 14px;
+    }
+
+    .HomeContainer {
+        margin-top: 30px;
+        padding: 15px;
+    }
+
+    .header {
+        font-size: 25px;
+    }
+
+    .header1 {
+        font-size: 20px;
+    }
+
+    .homebtns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn,
+    .btnconatct,
+    .btn1 {
+        width: 180px;
+    }
+
+    .skills {
+        font-size: 32px;
+    }
+
+    .contactContainer>h1 {
+        font-size: 32px;
+    }
+
 }
