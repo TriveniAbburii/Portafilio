@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portafilio/static/css/main.d2699b91.css",
+    "main.js": "/Portafilio/static/js/main.3536ec73.js",
+    "static/js/453.f3ca716e.chunk.js": "/Portafilio/static/js/453.f3ca716e.chunk.js",
+    "static/media/Triveni.jpg": "/Portafilio/static/media/Triveni.41c1d07cc365eb3ad6ac.jpg",
+    "static/media/Reactmage.png": "/Portafilio/static/media/Reactmage.3f712cef37e3aeeb9eaa.png",
+    "static/media/backgroundIamge.png": "/Portafilio/static/media/backgroundIamge.297faf9ab2e75639f6b5.png",
+    "static/media/SQL.png": "/Portafilio/static/media/SQL.c17e4ec2c18ef7baf95e.png",
+    "static/media/ReactNative.png": "/Portafilio/static/media/ReactNative.47644a03e6a6a8d1eb1d.png",
+    "static/media/java.png": "/Portafilio/static/media/java.49965291e6bcbb7900fb.png",
+    "static/media/html.png": "/Portafilio/static/media/html.a9f1118847a1fac44daf.png",
+    "static/media/css.png": "/Portafilio/static/media/css.61cb2b6b812c57f6bded.png",
+    "static/media/js.png": "/Portafilio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/logo.svg": "/Portafilio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portafilio/index.html",
+    "main.d2699b91.css.map": "/Portafilio/static/css/main.d2699b91.css.map",
+    "main.3536ec73.js.map": "/Portafilio/static/js/main.3536ec73.js.map",
+    "453.f3ca716e.chunk.js.map": "/Portafilio/static/js/453.f3ca716e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2699b91.css",
+    "static/js/main.3536ec73.js"
+  ]
+}
